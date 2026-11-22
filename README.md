@@ -1,26 +1,36 @@
-# Merlin Jeyakumar
+<p align="center">
+  <a href="https://www.jeyk.dev">
+    <picture>
+      <source media="(max-width: 767px) and (prefers-color-scheme: dark)" srcset="assets/header-dark-mobile.svg" />
+      <source media="(max-width: 767px) and (prefers-color-scheme: light)" srcset="assets/header-light-mobile.svg" />
+      <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="assets/header-light.svg" />
+      <img src="assets/header-light.svg" width="1200" alt="Merlin Jeyakumar — Mobile Systems Engineer based in Dubai, UAE." />
+    </picture>
+  </a>
+</p>
 
-Senior Android Engineer based in Dubai, UAE, with 9+ years of experience delivering regulated banking journeys and consumer mobile products.
+<p align="center">
+  <a href="https://www.jeyk.dev">Portfolio: jeyk.dev</a> · <a href="https://ae.linkedin.com/in/merlin-jeyakumar">LinkedIn</a> · Dubai, UAE
+</p>
 
-Works across Kotlin, Android SDK and Jetpack Compose delivery, with a practical focus on testable architecture, secure mobile flows and production reliability.
+Mobile Systems Engineer with 9+ years across regulated mobile banking and high-scale consumer applications. Hands-on with modular Kotlin and Android architecture, Flutter delivery, performance and reliability work, and test-driven practices.
 
-Maintains reusable Android libraries, SDKs and reference architectures alongside application and cross-platform learning projects.
+## Featured open-source engineering
 
-## Open-source work
+| Repository / project | Focus | What it solves | Stack |
+| --- | --- | --- | --- |
+| [kotlin-multi-module-mvvm-architecture-android](https://github.com/merlinJeyakumar/kotlin-multi-module-mvvm-architecture-android) | Architecture | Reference boundaries for modular, testable Android applications. | Kotlin · Android · Clean Architecture · DI · Coroutines · Flow |
+| [JGoogleAuth](https://github.com/merlinJeyakumar/JGoogleAuth) | Android Library | Reusable Google APIs authentication wrapper built for Android API 18–35 compatibility. | Kotlin · Activity Result API · Google APIs |
+| [jeyksupport](https://github.com/merlinJeyakumar/jeyksupport) | Android SDK | Lifecycle-aware foundations for results, ViewBinding, and device, file, and network utilities. | Kotlin · MVVM · ViewBinding |
+| [One Tap FileShare](https://www.jeyk.dev/#work) | Networking / Utility | Local-network file transfer and multi-device developer workflow utilities. | Kotlin · FTP · Android · Android TV |
 
-| Area | Repository / project | What it demonstrates |
-| --- | --- | --- |
-| Architecture & Best Practices | [kotlin-multi-module-mvvm-architecture-android](https://github.com/merlinJeyakumar/kotlin-multi-module-mvvm-architecture-android) | Multi-module Kotlin Android MVVM template with BuildSrc dependency management, reusable support modules and maintainable boundaries. |
-| Architecture & Best Practices | [kotlin-single-module-architecture-android](https://github.com/merlinJeyakumar/kotlin-single-module-architecture-android) | Kotlin Android MVVM reference using Jetpack components, Coroutines, Dagger Hilt and shared support modules. |
-| Android Libraries & SDKs | [jeyksupport](https://github.com/merlinJeyakumar/jeyksupport) | Reusable Kotlin Android SDK for lifecycle-aware MVVM foundations, ViewBinding, result handling and device/file/network utilities. |
-| Android Libraries & SDKs | [JGoogleAuth](https://github.com/merlinJeyakumar/JGoogleAuth) | Android Google Drive and Google Sheets integration using the Activity Result API for authentication-result handling. |
-| Android Libraries & SDKs | [android-ftp-module](https://github.com/merlinJeyakumar/android-ftp-module) | Kotlin Android library repository with a dedicated FTP module, consumer ProGuard rules and a separate reusable-support module. |
-| Apps & Cross-Platform Tools | [Desktop-Adb-compose-kotlin](https://github.com/merlinJeyakumar/Desktop-Adb-compose-kotlin) | Jetpack Compose desktop utility for Android ADB monitoring and local-subnet device discovery. |
-| Apps & Cross-Platform Tools | [Future Notes](https://www.jeyk.dev/#work) | Offline-first notes and media work with AES-256 encryption, encrypted thumbnails, background file operations and Android device regression checks. |
+<details>
+<summary><strong>Engineering focus &amp; architecture principles</strong></summary>
 
-Kotlin Multiplatform work remains part of the portfolio as shared Android and iOS architecture exploration.
+- **Mobile architecture** — Multi-module Clean Architecture, MVVM/MVI, Compose UI systems, Flutter, and shared native bridges.
+- **Reliability &amp; performance** — Cold-start tuning, memory and crash profiling across broad device matrices, and staged rollouts.
+- **Quality &amp; delivery** — TDD-minded practices, JUnit/Espresso automated testing, and GitHub Actions/Fastlane CI/CD.
+- **Security &amp; domain** — Biometric step-up flows, certificate pinning, AES-256 encrypted offline storage, and regulated fintech workflows.
 
-## Contact
-
-- Portfolio: [www.jeyk.dev](https://www.jeyk.dev)
-- LinkedIn: [linkedin.com/in/merlin-jeyakumar](https://www.linkedin.com/in/merlin-jeyakumar)
+</details>
