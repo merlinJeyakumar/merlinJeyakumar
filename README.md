@@ -1,8 +1,8 @@
 <p align="center">
   <a href="https://www.jeyk.dev">
     <picture>
-      <source media="(max-width: 767px) and (prefers-color-scheme: dark)" srcset="assets/header-dark-mobile.svg" />
-      <source media="(max-width: 767px) and (prefers-color-scheme: light)" srcset="assets/header-light-mobile.svg" />
+      <source media="(max-width: 520px) and (prefers-color-scheme: dark)" srcset="assets/header-dark-mobile.svg" />
+      <source media="(max-width: 520px) and (prefers-color-scheme: light)" srcset="assets/header-light-mobile.svg" />
       <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg" />
       <source media="(prefers-color-scheme: light)" srcset="assets/header-light.svg" />
       <img src="assets/header-light.svg" width="1200" alt="Merlin Jeyakumar — Mobile Systems Engineer based in Dubai, UAE." />
